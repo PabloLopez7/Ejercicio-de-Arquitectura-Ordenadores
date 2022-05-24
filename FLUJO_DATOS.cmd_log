@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Xilinx/TALLER/FLUJO_DATOS.xst" -ofn "C:/Xilinx/TALLER/FLUJO_DATOS.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/TALLER/FLUJO_DATOS.xst" -ofn "C:/Xilinx/TALLER/FLUJO_DATOS.syr" 

@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "C:/Xilinx/TALLER/ejemplos.xst" -ofn "C:/Xilinx/TALLER/ejemplos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 ejemplos.ngc ejemplos.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o ejemplos_map.ncd ejemplos.ngd ejemplos.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/TALLER/ejemplos.xst" -ofn "C:/Xilinx/TALLER/ejemplos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 ejemplos.ngc ejemplos.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o ejemplos_map.ncd ejemplos.ngd ejemplos.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/TALLER/ejemplos.xst" -ofn "C:/Xilinx/TALLER/ejemplos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 ejemplos.ngc ejemplos.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o ejemplos_map.ncd ejemplos.ngd ejemplos.pcf 

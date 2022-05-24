@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Xilinx/TALLER/and_gate.xst" -ofn "C:/Xilinx/TALLER/and_gate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm and_gate.bmm -p xc3s50-pq208-5 and_gate.ngc and_gate.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o and_gate_map.ncd and_gate.ngd and_gate.pcf 

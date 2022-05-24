@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Xilinx/TALLER/Promedio.xst" -ofn "C:/Xilinx/TALLER/Promedio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm and_gate.bmm -p xc3s50-pq208-5 Promedio.ngc Promedio.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o Promedio_map.ncd Promedio.ngd Promedio.pcf 

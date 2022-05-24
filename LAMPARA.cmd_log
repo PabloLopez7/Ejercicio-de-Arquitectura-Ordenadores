@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Xilinx/TALLER/LAMPARA.xst" -ofn "C:/Xilinx/TALLER/LAMPARA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm and_gate.bmm -p xc3s50-pq208-5 LAMPARA.ngc LAMPARA.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o LAMPARA_map.ncd LAMPARA.ngd LAMPARA.pcf 
+par -w -intstyle ise -ol high -t 1 LAMPARA_map.ncd LAMPARA.ncd LAMPARA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LAMPARA.twx LAMPARA.ncd -o LAMPARA.twr LAMPARA.pcf 

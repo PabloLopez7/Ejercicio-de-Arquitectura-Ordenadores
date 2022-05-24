@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Xilinx/TALLER/Operaciones1.xst" -ofn "C:/Xilinx/TALLER/Operaciones1.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/TALLER/Operaciones1.xst" -ofn "C:/Xilinx/TALLER/Operaciones1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm and_gate.bmm -p xc3s50-pq208-5 Operaciones1.ngc Operaciones1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o Operaciones1_map.ncd Operaciones1.ngd Operaciones1.pcf 
+par -w -intstyle ise -ol high -t 1 Operaciones1_map.ncd Operaciones1.ncd Operaciones1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Operaciones1.twx Operaciones1.ncd -o Operaciones1.twr Operaciones1.pcf 

@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Xilinx/TALLER/MOTOR.xst" -ofn "C:/Xilinx/TALLER/MOTOR.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/TALLER/MOTOR.xst" -ofn "C:/Xilinx/TALLER/MOTOR.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/TALLER/MOTOR.xst" -ofn "C:/Xilinx/TALLER/MOTOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm and_gate.bmm -p xc3s50-pq208-5 MOTOR.ngc MOTOR.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o MOTOR_map.ncd MOTOR.ngd MOTOR.pcf 
+par -w -intstyle ise -ol high -t 1 MOTOR_map.ncd MOTOR.ncd MOTOR.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MOTOR.twx MOTOR.ncd -o MOTOR.twr MOTOR.pcf 

@@ -1,0 +1,77 @@
+V3 51
+FL C:/Xilinx/TALLER/and_gate.vhd 2022/05/23.12:31:47 P.20131013
+EN work/and_gate 1653327110 FL C:/Xilinx/TALLER/and_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/and_gate/Behavioral 1653327111 \
+      FL C:/Xilinx/TALLER/and_gate.vhd EN work/and_gate 1653327110
+FL C:/Xilinx/TALLER/Circuito.vhd 2022/05/23.13:00:24 P.20131013
+EN work/Circuito 0 FL C:/Xilinx/TALLER/Circuito.vhd PB ieee/std_logic_1164 1381692176
+AR work/Circuito/Behavioral 0 \
+      FL C:/Xilinx/TALLER/Circuito.vhd EN work/Circuito 0
+FL C:/Xilinx/TALLER/ejemplos.vhd 2022/05/23.12:24:14 P.20131013
+EN work/ejemplos 1653326657 FL C:/Xilinx/TALLER/ejemplos.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ejemplos/Behavioral 1653326658 \
+      FL C:/Xilinx/TALLER/ejemplos.vhd EN work/ejemplos 1653326657
+FL C:/Xilinx/TALLER/Ejercici_1_17.vhd 2022/05/23.13:43:17 P.20131013
+EN work/Ejercici_1_17 0 FL C:/Xilinx/TALLER/Ejercici_1_17.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Ejercici_1_17/Behavioral 0 \
+      FL C:/Xilinx/TALLER/Ejercici_1_17.vhd EN work/Ejercici_1_17 0
+FL C:/Xilinx/TALLER/FLUJO_DATOS.vhd 2022/05/23.13:03:23 P.20131013
+EN work/FLUJO_DATOS 0 FL C:/Xilinx/TALLER/FLUJO_DATOS.vhd PB ieee/std_logic_1164 1381692176
+AR work/FLUJO_DATOS/Behavioral 0 \
+      FL C:/Xilinx/TALLER/FLUJO_DATOS.vhd EN work/FLUJO_DATOS 0
+FL C:/Xilinx/TALLER/Foco.vhd 2022/05/23.13:37:39 P.20131013
+EN work/Foco 1653331061 FL C:/Xilinx/TALLER/Foco.vhd PB ieee/std_logic_1164 1381692176
+AR work/Foco/Behavioral 1653331062 \
+      FL C:/Xilinx/TALLER/Foco.vhd EN work/Foco 1653331061
+FL C:/Xilinx/TALLER/LAMPARA.vhd 2022/05/23.13:09:04 P.20131013
+EN work/LAMPARA 1653329347 FL C:/Xilinx/TALLER/LAMPARA.vhd PB ieee/std_logic_1164 1381692176
+AR work/LAMPARA/Behavioral 1653329348 \
+      FL C:/Xilinx/TALLER/LAMPARA.vhd EN work/LAMPARA 1653329347
+FL C:/Xilinx/TALLER/MOTOR.vhd 2022/05/23.13:16:09 P.20131013
+EN work/MOTOR 1653329771 FL C:/Xilinx/TALLER/MOTOR.vhd PB ieee/std_logic_1164 1381692176
+AR work/MOTOR/Behavioral 1653329772 \
+      FL C:/Xilinx/TALLER/MOTOR.vhd EN work/MOTOR 1653329771
+FL C:/Xilinx/TALLER/motor1.vhd 2022/05/23.13:46:29 P.20131013
+EN work/motor1 1653331591 FL C:/Xilinx/TALLER/motor1.vhd PB ieee/std_logic_1164 1381692176
+AR work/motor1/Behavioral 1653331592 \
+      FL C:/Xilinx/TALLER/motor1.vhd EN work/motor1 1653331591
+FL C:/Xilinx/TALLER/MUX.vhd 2022/05/23.12:47:25 P.20131013
+EN work/MUX 1653328048 FL C:/Xilinx/TALLER/MUX.vhd PB ieee/std_logic_1164 1381692176
+AR work/MUX/Behavioral 1653328049 \
+      FL C:/Xilinx/TALLER/MUX.vhd EN work/MUX 1653328048
+FL C:/Xilinx/TALLER/Operaciones1.vhd 2022/05/23.13:23:51 P.20131013
+EN work/Operaciones1 1653330233 FL C:/Xilinx/TALLER/Operaciones1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Operaciones1/Behavioral 1653330234 \
+      FL C:/Xilinx/TALLER/Operaciones1.vhd EN work/Operaciones1 1653330233
+FL C:/Xilinx/TALLER/Operaciones2.vhd 2022/05/23.13:30:41 P.20131013
+EN work/Operaciones2 1653330645 FL C:/Xilinx/TALLER/Operaciones2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Operaciones2/Behavioral 1653330646 \
+      FL C:/Xilinx/TALLER/Operaciones2.vhd EN work/Operaciones2 1653330645
+FL C:/Xilinx/TALLER/Operaciones3.vhd 2022/05/23.13:30:41 P.20131013
+EN work/Operaciones3 1653330685 FL C:/Xilinx/TALLER/Operaciones3.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Operaciones3/Behavioral 1653330686 \
+      FL C:/Xilinx/TALLER/Operaciones3.vhd EN work/Operaciones3 1653330685
+FL C:/Xilinx/TALLER/Operaciones4.vhd 2022/05/23.13:35:32 P.20131013
+EN work/Operaciones4 1653330935 FL C:/Xilinx/TALLER/Operaciones4.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Operaciones4/Behavioral 1653330936 \
+      FL C:/Xilinx/TALLER/Operaciones4.vhd EN work/Operaciones4 1653330935
+FL C:/Xilinx/TALLER/Panel.vhd 2022/05/23.13:20:50 P.20131013
+EN work/Panel 0 FL C:/Xilinx/TALLER/Panel.vhd PB ieee/std_logic_1164 1381692176
+AR work/Panel/Behavioral 0 \
+      FL C:/Xilinx/TALLER/Panel.vhd EN work/Panel 0
+FL C:/Xilinx/TALLER/Promedio.vhd 2022/05/23.12:39:55 P.20131013
+EN work/Promedio 1653327598 FL C:/Xilinx/TALLER/Promedio.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Promedio/Behavioral 1653327599 \
+      FL C:/Xilinx/TALLER/Promedio.vhd EN work/Promedio 1653327598
+FL C:/Xilinx/TALLER/Robot.vhd 2022/05/23.13:05:28 P.20131013
+EN work/Robot 1653329130 FL C:/Xilinx/TALLER/Robot.vhd PB ieee/std_logic_1164 1381692176
+AR work/Robot/Behavioral 1653329131 \
+      FL C:/Xilinx/TALLER/Robot.vhd EN work/Robot 1653329130
